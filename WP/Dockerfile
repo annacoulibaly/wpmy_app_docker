@@ -1,5 +1,5 @@
 FROM wordpress:latest
-LABEL version="AC_WP_v2"
+LABEL version="AC_WP_v1"
 WORKDIR /home/anna/ProjetDocker/WPMY_app/WP
 RUN apt-get update && apt-get install -y iputils-ping
 RUN echo "FIN Installation Paquets WP V2" > /home/anna/ProjetDocker/WPMY_app/WP/Status_Paquets_WP.txt

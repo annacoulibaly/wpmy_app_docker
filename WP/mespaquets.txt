@@ -1,0 +1,7 @@
+apt-utils
+net-tools
+tree
+vim
+curl
+dnsutils
+iputils-tracepath

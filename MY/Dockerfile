@@ -1,7 +1,6 @@
 FROM mysql:5.7
 LABEL version="AC_MY_v2"
 WORKDIR /home/anna/ProjetDocker/WPMY_app/MY
-COPY toto.txt /tmp
 ADD mespaquets.txt .
 RUN apt-get update && apt-get install -y iputils-ping
 RUN xargs -a mespaquets.txt apt-get install --assume-yes
